@@ -13,11 +13,11 @@ export class MainPage extends BaseElement {
             <div class="${pageContentStyle} gap-4 p-4 min-h-[100vh]">
                 <h1 class="mt-4">The Hobbyist</h1>
                 <div>
-                    Eine Chrome Extensions, die vor Berufsbezeichnungen <span class="text-xs italic">(und manchmal unpassenden Phrasen)</span> in
-                    Titeln von Artikel auf <a href="https://derstandard.at">DerStandard.at</a> das Wort "Hobby-" anfügt.
+                    Eine Chrome Extension, die vor Berufsbezeichnungen <span class="text-xs italic">(und manchmal unpassenden Phrasen)</span> in
+                    Headlines auf <a href="https://derstandard.at">DerStandard.at</a> das Wort "Hobby-" anfügt.
                 </div>
                 <video src="hobby.mp4" controls></video>
-                <div>Aus <a href="https://twitter.com/badlogicgames/status/1763193831627919551">Gründen</a>.</div>
+                <div>Aus <a href="https://twitter.com/badlogicgames/status/1763193831627919551">Gründen</a></div>
                 <div class="flex flex-col gap-4">
                     <img src="hobby-5.png" />
                     <img src="hobby-6.png" />
