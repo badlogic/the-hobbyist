@@ -43,6 +43,9 @@ export class MainPage extends BaseElement {
                 <span class="text-xs text-center italic -mt-2"
                     >Diese Seite respektiert deine Privatsphäre und sammelt keine Daten, verwendet keine Cookies, und tut auch sonst nix böses</span
                 >
+                <a href="https://github.com/badlogic/the-hobbyist" class="text-xs text-center italic -mt-2"
+                    >Source Code</span
+                >
             </div>
         </div>`;
     }

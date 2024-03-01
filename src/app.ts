@@ -24,7 +24,7 @@ export class App extends LitElement {
         router.addRoute(
             "/",
             () => html`<main-page></main-page>`,
-            () => "app"
+            () => "The Hobbyist"
         );
         router.addRoute(
             "/404",
@@ -39,6 +39,7 @@ export class App extends LitElement {
 
         router.setRootRoute("/");
         router.setNotFoundRoot("/404");
+        router.addIgnoredPath("/extension.zip");
         router.replace(location.pathname);
     }
 }
